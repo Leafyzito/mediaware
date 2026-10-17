@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Chatterino/chatterino2/master/docs/plugin-info.schema.json",
+  "name": "mediaware",
+  "description": "snippet to test image rendering on chatterino 2",
+  "authors": ["1e16"],
+  "homepage": "github.com/zesseis/mediaware",
+  "tags": ["images", "commands", "rendering"],
+  "version": "1.0.0",
+  "license": "MIT",
+  "permissions": [
+    {
+      "type": "network"
+    }
+  ]
+}
+
