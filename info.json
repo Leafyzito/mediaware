@@ -9,6 +9,12 @@
   "license": "MIT",
   "permissions": [
     {
+        "type": "FilesystemRead"
+    },
+    {
+        "type": "FilesystemWrite"
+    },
+    {
       "type": "Network"
     }
   ]

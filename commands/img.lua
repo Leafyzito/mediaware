@@ -1,4 +1,6 @@
 c2.register_command("/img", function(ctx)
+    -- get the arguments after the command
+    -- start with an empty table
     local args = {}
     for i = 2, #ctx.words do
         args[#args + 1] = ctx.words[i]
@@ -41,9 +43,3 @@ c2.register_command("/img", function(ctx)
         },
     }))
 end)
-if EVIL_DEBUG_VARIABLE then
-    c2.log(
-        c2.LogLevel.Info,
-        "[media-test/debug] init OK"
-    )
-end

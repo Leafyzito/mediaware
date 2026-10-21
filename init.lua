@@ -12,5 +12,18 @@ local function initialize()
 
     -- command to render media in the current chat
     require 'commands.img'
+
+    -- command to enable media related automation (and streamer mode)
+    require 'commands.autoimg'
+
+    -- the actual media automation
+    require "functions.channel_scan".attach_open_channels()
+
+    if EVIL_DEBUG_VARIABLE then
+        c2.log(
+            c2.LogLevel.Info,
+            "mediaware initialized"
+        )
+    end
 end
 initialize()
