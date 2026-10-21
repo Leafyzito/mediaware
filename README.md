@@ -31,6 +31,10 @@ git clone https://github.com/1e165/media-tools.git /path/to/chatterino/Plugins/m
 
 `/imgsize <scale>`: Defines the scale of any media sent.
 
+`/autoimg <on/off>`: Toggles automatic image fetching on the chat.
+
+~~`/autoimg streamer`~~: Streamer mode related options. Not yet implemented.
+
 ## Planned features
 
 - [x] render images from messages automatically
